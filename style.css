@@ -1,0 +1,33 @@
+body{
+    background-color: grey;
+    font-family: arial;
+}
+
+.container{
+    border: 3px solid black;
+    width: 600px;
+    height: 250px;
+    margin: 150px auto 0 auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.temperatureInput{
+    display: block;
+    padding: 5px;
+    margin: 0 auto 20px auto;
+    width: 40%;
+}
+
+.selectsContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.resultDiv{
+    text-align: center;
+    font-size: 25px;
+}
